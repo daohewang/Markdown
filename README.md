@@ -18,8 +18,7 @@ Word或Pages有大量的排版、字体设置。它使我们专心于码字，�
 内容到格式甚至插图，键盘就可以通通搞定了。目前来看，支持Markdown语法的编辑器有很多，包括很多网站（例如[简书](https://www.jianshu.com)）  
 也支持了Markdown的文字录入。Markdown从写作到完成，导出格式随心所欲，你可以导出HTML格式的文件用来网站发布，  
 也可以十分方便的导出PDF格式，这种格式写出的简历更能得到HR的好感。甚至可以利用[CloudApp](http://www.getcloudapp.com/)这种云服务工具直接上传  
-至网页用来分享你的文章，全球最大的轻博客平台[Tumblr](http://te1ee.tumblr.com/)也支持Mou这类Markdown工具的直接上传，所以作为一名合格的程序员，  
-Markdown更是你的基本功。  
+至网页用来分享你的文章，全球最大的轻博客平台[Tumblr](http://te1ee.tumblr.com/)也支持Mou这类Markdown工具的直接上传，所以作为一名合格的程序员,Markdown更是你的基本功。  
 
 ## 3.Markdown的优势  
 - 简洁高效，易读易写，学习成本极。
