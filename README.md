@@ -159,11 +159,18 @@ Word或Pages有大量的排版、字体设置。它使我们专心于码字，�
 - 内部链接(链接本仓库的其他文件，这里以我的仓库为例):[Markdown]  
 - 内部链接(链接本文档的其他部分，一般作为索引目录):[Markdown的优势]    
 
-**注释:使用引用式链接时，需要在文档的最下引用<!--下面是本文档中用到的引用链接-->**  
-**` [百度]:https://www.baidu.com `**  
-**`[Markdown]:Markdown.md`**  
-**`[Markdown的优势]:README.md#Markdown的优势`**
-
+**注释:使用引用式链接时，需要在文档的最下引用<!--下面是本文档中用到的引用链接-->**      
+**<!--下面是本文档中用到的引用链接-->**  
+**` [百度]:https://www.baidu.com `**    
+**`[Markdown]:Markdown.md`**    
+**`[Markdown的优势]:README.md#Markdown的优势`**  
+### 插入图片格式  
+####  外部图片  
+>语法--- `![alt](url  txt)`  
+> 示例:    
+>`![biadu](http://img1.imgtn.bdimg.com/it/u=737899532,234515945&fm=23&gp=0.jpg  “Markdown logo”)`   
+**效果:**  
+![Markdown](http://img1.imgtn.bdimg.com/it/u=737899532,234515945&fm=23&gp=0.jpg  “Markdown logo)  
 
 
 
