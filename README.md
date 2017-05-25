@@ -168,9 +168,9 @@ Word或Pages有大量的排版、字体设置。它使我们专心于码字，�
 ####  外部图片  
 >语法--- `![alt](url  txt)`  
 > 示例:    
->`![biadu](http://img1.imgtn.bdimg.com/it/u=737899532,234515945&fm=23&gp=0.jpg  “Markdown logo”)`   
+>`![Markdown_Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN-EUrGn7JfB77qryuykr6dZsgi6ghUF0lJ0x9ZyKw_wZWLNcz9w“Markdown logo”)`   
 **效果:**  
-![Markdown](http://img1.imgtn.bdimg.com/it/u=737899532,234515945&fm=23&gp=0.jpg  “Markdown logo)  
+![Markdown_Logo]( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN-EUrGn7JfB77qryuykr6dZsgi6ghUF0lJ0x9ZyKw_wZWLNcz9w  "" Markdown logo”)
 
 
 
