@@ -164,15 +164,51 @@ Word或Pages有大量的排版、字体设置。它使我们专心于码字，�
 **` [百度]:https://www.baidu.com `**    
 **`[Markdown]:Markdown.md`**    
 **`[Markdown的优势]:README.md#Markdown的优势`**  
-### 插入图片格式  
-####  外部图片  
+### 插入图片方法
+####  插入外部图片:  
 >语法--- `![alt](url  txt)`  
 > 示例:    
 >`![Markdown_Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN-EUrGn7JfB77qryuykr6dZsgi6ghUF0lJ0x9ZyKw_wZWLNcz9w“Markdown logo”)`   
 **效果:**  
 ![Markdown_Logo]( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN-EUrGn7JfB77qryuykr6dZsgi6ghUF0lJ0x9ZyKw_wZWLNcz9w  "" Markdown logo”)
 
+####  插入仓库内的图片:  
+这里以我仓库里image文件夹下的git.jpg图片为例  
+> 语法: `![](image/git.jpg)`    
 
+**效果:**  
+![](image/git.jpg)   
+### 图片的引用式链接:  
+#### 外部图片:  
+`![](Markdown_Logo)`  
+#### 仓库内的图片:  
+`[](git.jpg)`  
+**<!--下面是本文档中用到的引用链接-->**  
+>`[Markdown_Logo]:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN-EUrGn7JfB77qryuykr6dZsgi6ghUF0lJ0x9ZyKw_wZWLNcz9w`  
+> `[git.jpg]:image/git.jpg`  
+效果和上面一样。  这里就不展示了  
+
+### 代码块  
+#### 行内代码:  
+这个代码用来申明变量`var a=6`,打印变量内容`console.log`函数的调用  
+**代码格式: 在代码的前面加入3个点(tab键上面的那个按键-英文输入下输入)**    
+、、、JavaScript  
+var a=6;  
+console.log(a);  
+、、、
+**效果:**
+```JavaScript
+var a=6;  
+console.log(a);
+```  
+### HTML代码  
+**注释:可以直接引用html代码生成网页内容**
+如:` <p  align="center">hello Markdown</p>`
+**效果:**  
+<p  align="center">hello Markdown</p>   
+
+### GFM:(Github  flored  Markdown)   
+`task list  
 
 
 
