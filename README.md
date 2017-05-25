@@ -168,9 +168,9 @@ Word或Pages有大量的排版、字体设置。它使我们专心于码字，�
 ####  插入外部图片:  
 >语法--- `![alt](url  txt)`  
 > 示例:    
->`![Markdown_Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN-EUrGn7JfB77qryuykr6dZsgi6ghUF0lJ0x9ZyKw_wZWLNcz9w“Markdown logo”)`   
+>`![Markdown_Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN-  EUrGn7JfB77qryuykr6dZsgi6ghUF0lJ0x9ZyKw_wZWLNcz9w“Markdown logo”)`   
 **效果:**  
-![Markdown_Logo]( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN-EUrGn7JfB77qryuykr6dZsgi6ghUF0lJ0x9ZyKw_wZWLNcz9w  "" Markdown logo”)
+![Markdown_Logo]( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN-EUrGn7JfB77qryuykr6dZsgi6ghUF0lJ0x9ZyKw_wZWLNcz9w" Markdown logo”)
 
 ####  插入仓库内的图片:  
 这里以我仓库里image文件夹下的git.jpg图片为例  
@@ -185,6 +185,7 @@ Word或Pages有大量的排版、字体设置。它使我们专心于码字，�
 `[](git.jpg)`  
 **<!--下面是本文档中用到的引用链接-->**  
 >`[Markdown_Logo]:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN-EUrGn7JfB77qryuykr6dZsgi6ghUF0lJ0x9ZyKw_wZWLNcz9w`  
+
 > `[git.jpg]:image/git.jpg`  
 效果和上面一样。  这里就不展示了  
 
@@ -195,7 +196,7 @@ Word或Pages有大量的排版、字体设置。它使我们专心于码字，�
 、、、JavaScript  
 var a=6;  
 console.log(a);  
-、、、
+、、、   
 **效果:**
 ```JavaScript
 var a=6;  
@@ -203,16 +204,27 @@ console.log(a);
 ```  
 ### HTML代码  
 **注释:可以直接引用html代码生成网页内容**
-如:` <p  align="center">hello Markdown</p>`
+如:` <p  align="center">hello Markdown</p>`   
 **效果:**  
 <p  align="center">hello Markdown</p>   
 
 ### GFM:(Github  flored  Markdown)   
-`task list  
+
+> task list  
+-[x] task 1  
+-[ ] task 1  
+-[x] task 1  
+
+**效果:**
+ task list  
+- [x] task 1  
+- [ ] task 1  
+- [x] task 1  
 
 
 
-
+##  参考资料  
+- [GFM格式说明](https://www.zybuluo.com/techird/note/46064 )
 
 
  
