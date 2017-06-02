@@ -261,6 +261,22 @@ console.log(a);
 `[baidu]:(https://www.baidu.com)  `  
 `[baidu_logo]:https://www.baidu.com/img/bd_logo1.png`  
 
+#### 引用链接问题  
+最佳:  
+[百度] [baidu]  
+[百度网址] [baidu]  
+<!--以下是本文链接-->    
+> `[baidu]:https://www.baidu.com`   
+
+较差:    
+[百度]  
+[百度网址]  
+<!--以下是本文链接-->    
+> `[百度]:https://www.baidu.com   `  
+> `[百度网址]:https://www.baidu.com   `    
+
+
+  
 
 
 ##  参考资料  
